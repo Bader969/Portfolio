@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Start Custom Live Server",
+        "type": "shell",
+        "command": "node start-live-server.js",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": [],
+        "detail": "Runs Live Server on localhost:5501"
+      }
+    ]
+  }
+  
