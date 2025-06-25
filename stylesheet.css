@@ -133,12 +133,15 @@ section {
     position: relative;
     overflow: hidden;
     transition: all 0.5s ease;
+    margin-right: 20px
   }
+
 
 .main-btn span {
     position: relative;
     z-index: 2;
   }
+
   
   .main-btn::before {
     content: '';
